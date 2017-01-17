@@ -11,8 +11,8 @@ namespace ConsoleApplication
 
         public static int[] sumBinary(int[] first, int[] second)
         {
-            var inputlength = first.Length >= second.Length? first.Length : second.Length;
-            int[] result = new int[inputlength+1];
+            var inputlength = (first.Length >= second.Length? first.Length : second.Length)+1;
+            int[] result = new int[inputlength];
             int i = first.Length-1;
             int j = second.Length-1;
             int outputIndex = inputlength-1;            
@@ -23,7 +23,7 @@ namespace ConsoleApplication
                 int secondNum = j>=0 ? second[j] :0;
                 int resultNum = firstNum ^ secondNum ^ extra;
                 result[outputIndex] = resultNum;
-                if(firstNum + secondNum +　extra >2)
+                if(firstNum + secondNum +　extra >=2)
                 {
                     extra = 1;
                 }
