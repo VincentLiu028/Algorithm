@@ -51,14 +51,8 @@ namespace ConsoleApplication
         {
             if(input == null || input.Length ==0)
                 return;
-            StringBuilder sb = new StringBuilder();
-            sb.Append("{");            
-            foreach(var i in input)
-            {
-                sb.Append(i.ToString()+ " " + ",");
-            }
-            sb.Append("}");
-            Console.WriteLine(sb.ToString());
+            
+            Console.WriteLine(String.Join(", ", input));
         }
 
         public static void Test(string sortSeq)

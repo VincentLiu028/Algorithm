@@ -1,5 +1,5 @@
---temp-output:c:\src\github\AlgorithmStudy\InsertationSort\obj\Debug\netcoreapp1.1\
---out:c:\src\github\AlgorithmStudy\InsertationSort\bin\Debug\netcoreapp1.1\InsertationSort.dll
+--temp-output:f:\src\github\VincentLiu028\Algorithm\InsertationSort\obj\Debug\netcoreapp1.1\
+--out:f:\src\github\VincentLiu028\Algorithm\InsertationSort\bin\Debug\netcoreapp1.1\InsertationSort.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_1
@@ -87,4 +87,4 @@
 --reference:C:\Users\vincentl\.nuget\packages\System.Threading.Timer\4.3.0\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\vincentl\.nuget\packages\System.Xml.ReaderWriter\4.3.0\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\vincentl\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll
-c:\src\github\AlgorithmStudy\InsertationSort\Program.cs
+f:\src\github\VincentLiu028\Algorithm\InsertationSort\Program.cs
